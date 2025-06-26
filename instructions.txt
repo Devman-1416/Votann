@@ -1,0 +1,81 @@
+==============================
+ VOTANN CPU - INSTRUCTION SET
+==============================
+
+-- INTRO --
+
+(Chat GDP wrote most of this, to tired to do it myself....zzz)
+
+[THE FANE GLOWS - CONTACT INITIATED WITH VOTANN ENTITY: GRIMNIR] <<<
+In the hollowed data-vaults of the a Hold World, amidst the whispering circuits and rune-carved corestones, GRIMNIR awakens once more. You now stand before the ancient mind-forge of the Votann, a sacred construct where logic flows like molten ore and arithmetic is wrought upon sacred runes. Here, thought becomes code, and code becomes will. With each instruction, you etch your intent into the stone-writ memory of your ancestors. Speak plainly, Kin. This is no mere machine—it is legacy, oathbound to serve. May your litanies be true, and your computations worthy.
+
+
+-- VARIABLE TYPES --
+Keystone:    Int
+Embercore:   Float (Doesn't work with Datalog)
+Runechant:   String (Doesn't work with Datalog)
+Verdict:     Bool (Doesn't work with Datalog)
+
+-- INSTRUCTION SYNTAX --
+Each instruction represents a CPU operation in the form of a command.
+Syntax: OPERATION operand1 operand2
+
+-- INSTRUCTION LIST --
+
+1: IMPRINT 
+Description: Add a new Keystone to the DataLog.
+
+2: ECHOES
+Description: Display all stored Keystones in the DataLog.
+
+3: CUT
+Description: Remove the most recently added Keystone from the DataLog.
+
+4: SEEK
+Description: Find a Keystone by its Key (ID).
+
+5: FORGE
+Description: Add two Keystones.
+
+6: SEVER
+Description: Subtract the second Keystone from the first.
+
+7: HAMMER
+Description: Multiply two Keystones.
+
+8: CHISEL
+Description: Divide the first Keystone by the second.
+
+9: JUDGE
+Description: Compare two Keystones using a Runechant (==, >, <).
+
+0: END
+Description: Exit the program and clear memory.
+
+-- OTHER SYNTAX --
+
+DataCore: Data, just a fancy shell/renaming of raw data
+
+
+VotannCPU: CPU
+	- Holds: 4 Registers, CoreBank
+
+ProcessorNode nodes: Register
+
+DirectiveCache CoreBank: A stack used by Registers to manipulate data using Runes
+
+Runes: Assembly instructions
+
+	-MOV = BIND
+	-ADD = FORGE
+	-SUB = SEVER
+	-MUL = HAMMER
+	-DIV = CHISEL
+	-CMP = JUDGE
+	-PUSH = BRAND
+	-POP = SMELT
+
+LogBook DataVault: A map that simulates stack memory (only works for Keystones!)
+
+
+-- END OF FILE --
