@@ -7,7 +7,11 @@
 (Chat GDP wrote most of this, to tired to do it myself....zzz)
 
 [THE FANE GLOWS - CONTACT INITIATED WITH VOTANN ENTITY: GRIMNIR] <<<
-In the hollowed data-vaults of the a Hold World, amidst the whispering circuits and rune-carved corestones, GRIMNIR awakens once more. You now stand before the ancient mind-forge of the Votann, a sacred construct where logic flows like molten ore and arithmetic is wrought upon sacred runes. Here, thought becomes code, and code becomes will. With each instruction, you etch your intent into the stone-writ memory of your ancestors. Speak plainly, Kin. This is no mere machine—it is legacy, oathbound to serve. May your litanies be true, and your computations worthy.
+In the hollowed data-vaults of the a Hold World, amidst the whispering circuits and rune-carved corestones,
+GRIMNIR awakens once more. You now stand before the ancient mind-forge of the Votann,
+a sacred construct where logic flows like molten ore and arithmetic is wrought upon sacred runes.
+Here, thought becomes code, and code becomes will. With each instruction, you etch your intent into the stone-writ memory of your ancestors.
+Speak plainly, Kin. This is no mere machine—it is legacy, oathbound to serve. May your litanies be true, and your computations worthy.
 
 
 -- VARIABLE TYPES --
